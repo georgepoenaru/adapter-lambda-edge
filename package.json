@@ -1,5 +1,5 @@
 {
-	"name": "@sveltejs/adapter-lambda-edge",
+	"name": "@georgepoenaru/adapter-lambda-edge",
 	"version": "1.0.0-next.0",
 	"main": "index.js",
 	"files": [
@@ -14,7 +14,7 @@
 		"prepublishOnly": "npm run build"
 	},
 	"devDependencies": {
-		"@sveltejs/kit": "workspace:*",
+		"@sveltejs/kit": "1.0.0-next.1",
 		"rollup": "^2.41.1",
 		"sirv": "^1.0.11",
 		"typescript": "^4.2.3"

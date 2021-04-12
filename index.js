@@ -4,7 +4,7 @@ const { resolve, join } = require('path');
 module.exports = function () {
 	/** @type {import('@sveltejs/kit').Adapter} */
 	const adapter = {
-		name: '@sveltejs/adapter-lambda-edge',
+		name: '@georgepoenaru/adapter-lambda-edge',
 
 		async adapt(utils) {
 			const lambda_output_directory = resolve('.lambda_edge_build');
